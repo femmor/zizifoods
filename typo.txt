@@ -1,0 +1,7 @@
+Font: 
+Poppings
+
+Colors: 
+Orange: #f8bb00
+black: #363636
+green: #9ed751
