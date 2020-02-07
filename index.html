@@ -21,7 +21,7 @@
       </header>
 
       <div class="content">
-        <div class="bannerText">
+        <div class="bannerText" id="slideShowText">
           <div class="active">
             <h2>
               Eat Healthy <br />
@@ -61,10 +61,15 @@
             <a href="#">Read More</a>
           </div>
         </div>
-        <div class="bannerImage" id="slideShow">
-          <img src="img/img1.png" alt="homepage food" class="active" />
-          <img src="img/img2.png" alt="homepage food" />
-          <img src="img/img3.png" alt="homepage food" />
+        <div class="bannerImage" id="slideshow">
+          <img
+            src="img/img1.png"
+            alt="homepage food"
+            class="active"
+            id="sliderImage"
+          />
+          <img src="img/img2.png" alt="homepage food" id="sliderImage" />
+          <img src="img/img3.png" alt="homepage food" id="sliderImage" />
         </div>
       </div>
       <div class="icons">
@@ -81,13 +86,16 @@
         </ul>
         <ul class="controls">
           <li>
-            <a href="#"><img src="img/left.png" alt="left control"/></a>
+            <a><img src="img/left.png" id="leftControl" alt="left control"/></a>
           </li>
           <li>
-            <a href="#"><img src="img/right.png" alt="right control"/></a>
+            <a
+              ><img src="img/right.png" id="rightControl" alt="right control"
+            /></a>
           </li>
         </ul>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
