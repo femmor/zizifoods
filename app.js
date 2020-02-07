@@ -1,6 +1,7 @@
 let slideShow = document.getElementById("slideshow");
 let slides = slideShow.getElementsByTagName("img");
 let index = 0;
+const toggleMenu = document.getElementById("toggleMenu");
 
 const leftControl = document.getElementById("leftControl");
 const rightControl = document.getElementById("rightControl");
@@ -50,3 +51,10 @@ function prevSlideText() {
   i = (i - 1 + slideShowTextContent.length) % slideShowTextContent.length;
   slideShowTextContent[i].classList.add("active");
 }
+
+function menuToggle() {
+  const nav = document.getElementById("navbar");
+  nav.classList.toggle("active");
+}
+
+toggleMenu.addEventListener("click", menuToggle);
