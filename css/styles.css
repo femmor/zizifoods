@@ -231,12 +231,13 @@ header ul li a.active:before {
   .container {
     padding: 20px 50px;
   }
+
   .container:before {
     display: none;
   }
+
   header {
     padding: 0;
-    margin-bottom: 20px;
   }
 
   .content .bannerText h2 {
@@ -261,7 +262,7 @@ header ul li a.active:before {
 
   .content .bannerText {
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     padding-right: 0;
   }
 
